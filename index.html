@@ -1,75 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Kartekeya Sharma | Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
-    <button class="toggle-btn" id="themeToggle">Toggle Dark Mode</button>
+    <button class="toggle-btn" id="themeToggle">🌙</button>
 
-    <header>
-        <h1>Kartekeya Sharma</h1>
-        <p>B.Tech (Hons) CSE Student | Full Stack & AI/ML Developer</p>
-        <p>
-            <a href="mailto:kartekeyas.btech22@rvu.edu.in">kartekeyas.btech22@rvu.edu.in</a> |
-            +91 7647903650 | Bengaluru, India
-        </p>
-    </header>
+    <main class="container">
+        <header>
+            <h1>Kartekeya Sharma</h1>
+            <p class="tagline">Full Stack & AI/ML Developer</p>
+            <p class="contact">
+                <a href="mailto:kartekeyas.btech22@rvu.edu.in">kartekeyas.btech22@rvu.edu.in</a> •
+                +91 7647903650 • Bengaluru, India
+            </p>
+        </header>
 
-    <section class="bio">
-        <h2>About Me</h2>
-        <p>
-            I'm a B.Tech (Hons) Computer Science student passionate about solving real-world problems using Full Stack Development and AI/ML. I'm a team-oriented, extroverted individual who enjoys exploring new technologies and handling multiple roles effectively.
-        </p>
-    </section>
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I'm a B.Tech (Hons) Computer Science student passionate about solving real-world problems using Full Stack Development and AI/ML. I'm extroverted, collaborative, and love working across teams. I adapt quickly, enjoy wearing multiple hats, and am deeply driven by clean, functional design and meaningful code.
+            </p>
+        </section>
 
-    <section class="education">
-        <h2>Education</h2>
-        <div class="edu-entry">
-            <h3>RV University, Bengaluru</h3>
-            <span class="date">2022 - 2026</span>
-            <p>B.Tech (Hons) Computer Science & Engineering | CGPA: 8.3</p>
-        </div>
-        <div class="edu-entry">
-            <h3>DPS Bangalore South</h3>
-            <span class="date">Graduated: 2022</span>
-            <p>12th Standard (PCM) | CGPA: 9.0</p>
-        </div>
-    </section>
+        <section>
+            <h2>Education</h2>
+            <div class="item">
+                <h3>RV University, Bengaluru <span>2022 – 2026</span></h3>
+                <p>B.Tech (Hons) in Computer Science & Engineering – CGPA: 8.3</p>
+            </div>
+            <div class="item">
+                <h3>DPS Bangalore South <span>Graduated: 2022</span></h3>
+                <p>12th Standard (PCM) – CGPA: 9.0</p>
+            </div>
+        </section>
 
-    <section class="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li><b>Languages:</b> Python, JavaScript, C, SQL</li>
-            <li><b>Frameworks:</b> React.js, Node.js, Express.js, Flask, TensorFlow.js</li>
-            <li><b>Databases:</b> MongoDB, SQL</li>
-            <li><b>Tools:</b> Git, GitHub, Postman, OpenCV, HTML5, CSS3</li>
-            <li><b>Concepts:</b> REST APIs, Full-Stack Web Development, Machine Learning, Computer Vision</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Technical Skills</h2>
+            <ul class="skills">
+                <li><strong>Languages:</strong> Python, JavaScript, C, SQL</li>
+                <li><strong>Frameworks:</strong> React.js, Node.js, Express.js, Flask, TensorFlow.js</li>
+                <li><strong>Databases:</strong> MongoDB, SQL</li>
+                <li><strong>Tools:</strong> Git, GitHub, Postman, OpenCV, HTML5, CSS3</li>
+                <li><strong>Concepts:</strong> REST APIs, Full-Stack Development, Machine Learning, CV</li>
+            </ul>
+        </section>
 
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>AI Proctor</h3>
-            <p>A real-time AI-powered proctoring tool built with React.js, Node.js, and TensorFlow.js to detect suspicious behaviors during online exams.</p>
-        </div>
-        <div class="project">
-            <h3>AI News Chatbot</h3>
-            <p>A chatbot using Python, Flask, and OpenAI API to summarize and classify news with NLP techniques.</p>
-        </div>
-        <div class="project">
-            <h3>Expense Tracker</h3>
-            <p>A secure, responsive full-stack MERN application for personal expense management.</p>
-        </div>
-    </section>
+        <section>
+            <h2>Projects</h2>
+            <div class="item">
+                <h3>AI Proctor</h3>
+                <p>Real-time proctoring system using React.js, Node.js, TensorFlow.js to detect cheating behaviors via webcam, integrated with Socket.IO for live alerting.</p>
+            </div>
+            <div class="item">
+                <h3>AI News Chatbot</h3>
+                <p>Flask + OpenAI-based bot to fetch and summarize news with NLP including sentiment analysis, topic modeling, and named entity recognition.</p>
+            </div>
+            <div class="item">
+                <h3>Expense Tracker</h3>
+                <p>MERN stack application for personal expense management with secure CRUD, JWT auth, and modern UI.</p>
+            </div>
+        </section>
 
-    <footer>
-        <p>&copy; 2025 Kartekeya Sharma. All Rights Reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2025 Kartekeya Sharma • Built with 💻</p>
+        </footer>
+    </main>
 
     <script src="scripts.js"></script>
 </body>
