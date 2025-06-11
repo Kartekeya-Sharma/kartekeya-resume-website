@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+:root {
+    --bg-color: #f9fafc;
+    --text-color: #333;
+    --card-bg: #fff;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode {
+    --bg-color: #121212;
+    --text-color: #f1f1f1;
+    --card-bg: #1e1e1e;
+    --card-shadow: rgba(255, 255, 255, 0.05);
+}
+
+header, section, footer {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px var(--card-shadow);
+}
+
+h1, h2 {
+    color: var(--text-color);
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.edu-entry, .project {
+    margin-bottom: 15px;
+}
+
+.date {
+    font-style: italic;
+    color: #888;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
